@@ -5,15 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="いがちゃんの自己紹介ページ。趣味で見つけたお気に入りのアイテムを紹介するオンラインショップへの入り口です。"
+      content="越前と佐久のものづくり、そして遊行の聖・一遍上人と踊念仏の思想を辿る、いがちゃんの航海日誌。共に新しい景色を見る仲間を、しずかにさがしています。"
     />
-    <title>いがちゃんのお店 | 自己紹介</title>
+    <title>いがちゃんの航海日誌:共に新しい景色を見る仲間へ:</title>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="container">
-        <p class="site-title"><a href="index.html">いがちゃんのお店</a></p>
+        <div class="site-title-block">
+          <p class="site-title">
+            <a href="index.html"
+              >いがちゃんの航海日誌<span class="seal" aria-hidden="true">一</span></a
+            >
+          </p>
+          <p class="site-tagline">─ 共に新しい景色を見る仲間へ ─</p>
+        </div>
         <nav class="global-nav" aria-label="メインナビゲーション">
           <ul>
             <li><a href="index.html" aria-current="page">ホーム</a></li>
@@ -25,68 +32,725 @@
     </header>
 
     <main>
-      <section class="hero">
+      <!-- ========== 序 (Hero) ========== -->
+      <section class="hero" aria-label="はじめに">
         <div class="container hero-inner">
+          <p class="vertical-label" aria-hidden="true">遊行のごとく、しずかに。</p>
           <div>
-            <h1>はじめまして、いがちゃんです。</h1>
+            <h1>縁(えにし)あるものを、<br />しずかに灯す。</h1>
             <p>
-              日々の暮らしを少しだけ豊かにしてくれる、お気に入りのアイテムを集めました。<br />
-              わたしが本当におすすめできるものだけを紹介するオンラインショップへようこそ。
+              越前の和紙、佐久の高原、そして遊行の聖・一遍上人の "捨てる" 作法。<br />
+              ふたつの土地と、ひとりの僧の生きざまを心の支柱に、<br />
+              ひとつひとつ手にとって確かめた品だけを、ここに並べています。
             </p>
-            <a class="btn" href="shop.html">おすすめ商品を見る</a>
+            <a class="btn btn-primary" href="#chapter-7">この巻物を読み終えて、品を見る</a>
           </div>
-          <div class="avatar" role="img" aria-label="いがちゃんのアバター"></div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container">
-          <h2>自己紹介</h2>
-          <p class="lead">わたしのことを少しだけ。</p>
-          <div class="profile-grid">
-            <article class="profile-card">
-              <h3>名前</h3>
-              <p>いがちゃん</p>
-            </article>
-            <article class="profile-card">
-              <h3>住んでいるところ</h3>
-              <p>東京の片隅で、猫と暮らしています。</p>
-            </article>
-            <article class="profile-card">
-              <h3>好きなもの</h3>
-              <p>コーヒー、文房具、観葉植物、週末のキャンプ。</p>
-            </article>
-            <article class="profile-card">
-              <h3>このサイトについて</h3>
-              <p>
-                実際に使って良かったものだけを、自分の言葉で紹介しています。
-              </p>
-            </article>
+          <div class="enso" aria-label="円相">
+            <span class="enso-mark" aria-hidden="true">一</span>
           </div>
         </div>
       </section>
 
-      <section class="section section-alt">
+      <!-- ========== 目次 ========== -->
+      <section class="section section-narrow" aria-label="目次">
         <div class="container">
-          <h2>ショップでできること</h2>
-          <p class="lead">
-            気になったアイテムは <a href="shop.html">ショップページ</a> から詳細をご覧いただけます。
-          </p>
-          <div class="profile-grid">
-            <article class="profile-card">
-              <h3>厳選アイテム</h3>
-              <p>毎日の暮らしに馴染む、長く使えるものを選んでいます。</p>
+          <nav class="toc" aria-label="目次">
+            <h2>目次</h2>
+            <ol>
+              <li><a href="#chapter-1">ごあいさつ ─ わたしのこと</a></li>
+              <li><a href="#chapter-2">世の中への、ささやかな提案</a></li>
+              <li><a href="#chapter-3">福井県越前市のこと</a></li>
+              <li><a href="#chapter-4">長野県佐久市のこと</a></li>
+              <li><a href="#chapter-5">一遍上人のこと</a></li>
+              <li><a href="#chapter-6">踊念仏のこと</a></li>
+              <li><a href="#chapter-7">そして、おすすめのもの</a></li>
+              <li><a href="#chapter-8">実は、お話したいことがあります</a></li>
+            </ol>
+          </nav>
+        </div>
+      </section>
+
+      <!-- ========== 第一章 自己紹介 ========== -->
+      <section id="chapter-1" class="section section-narrow section-alt">
+        <div class="container">
+          <header>
+            <p class="eyebrow">CHAPTER 一</p>
+            <h2>ごあいさつ ─ わたしのこと</h2>
+            <p class="section-subtitle">名前と、しごとと、はじまりの一枚の紙について。</p>
+          </header>
+
+          <div class="prose">
+            <p>
+              はじめまして。<br />
+              五十嵐(いがらし)、ふだんは「いがちゃん」と呼ばれて暮らしています。
+              しごとは、ものを選ぶこと。
+              ひとつの品が生まれた土地の風土と、つくった人の手の動きに耳をすませて、
+              ながく使えるものを、ここに並べています。
+            </p>
+            <p>
+              ものを選ぶようになったきっかけは、祖母の家にあった<strong>一枚の和紙の便箋</strong>でした。
+              黄ばんだ手紙の裏に書かれた、もう誰のものでもない筆跡。
+              それでも紙は破れず、墨はにじまず、五十年の時間をしずかに抱えていました。
+            </p>
+            <p>
+              ─ 「ながく持つもの」には、ものそのものの力ではなく、
+              受けとった人と、つくった人と、土地の<strong>三つの縁</strong>が宿っているのだと、
+              その紙はわたしに教えてくれました。
+            </p>
+            <p>
+              それから少しずつ、ものをつくる人びとの土地をめぐるようになりました。
+              福井の越前で、紙漉(かみす)きの音を聴き、
+              長野の佐久で、星の冷たさに身を縮めながら、高原の蜂蜜の壺を抱えて帰り道を歩く。
+              どちらの土地も、わたしには大切な、こころのふるさとです。
+            </p>
+            <p>
+              旅のあいだ、ふと、八百年ほどむかしに同じ日本列島を遊行(ゆぎょう)した、
+              ひとりの僧のことを思います。<strong>一遍上人</strong>。
+              名前も家も身分も、ついには書物さえも捨て、
+              ただ「南無阿弥陀仏」と書いた札を配りつづけたその人の生き方は、
+              ものを売り、ものを選ぶというわたしのしごとに、ふしぎな問いをなげかけてきます。
+            </p>
+            <blockquote>
+              <p>ものは、抱えすぎないほうがいい。<br />
+              けれど、抱えると決めた一つには、ていねいに礼を尽くしたい。</p>
+              <cite>── このお店の作法</cite>
+            </blockquote>
+            <p>
+              そんな小さな矛盾と仲よく付き合うことが、いまのわたしのしごとの背骨になっています。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 第二章 世の中への提案 ========== -->
+      <section id="chapter-2" class="section section-narrow">
+        <div class="container">
+          <header>
+            <p class="eyebrow">CHAPTER 二</p>
+            <h2>世の中への、ささやかな提案</h2>
+            <p class="section-subtitle">速さと量に追われない、もうひとつの暮らしのかたち。</p>
+          </header>
+
+          <div class="prose">
+            <p>
+              速さと量で誰かを抜くこと。
+              新しいものを買い、古いものを早く捨てること。
+              隙間なく予定をうめて、もっと働き、もっと選び、もっと持つこと。
+              ─ そう生きるのが当たり前になった世の中に、
+              わたしはほんの少し、別の声をそえてみたいと思っています。
+            </p>
+            <p>
+              抱えるものを、<strong>半分にする</strong>。
+              その代わり、残った半分には、誰がつくったか、どこから来たか、
+              なぜ手元にあるのかを、ちゃんと言える。
+              ─ そういう暮らしのほうが、たぶん、ずっとつよく、ずっと自由なのではないでしょうか。
+            </p>
+            <p>
+              <strong>一期一会(いちごいちえ)</strong>、というむかしの言葉を、
+              わたしはものに対しても使っていいと思っています。
+              一冊の便箋、一枚のうつわ、一本の包丁。
+              それぞれに、ひとつだけの旅路があり、ひとつだけの縁(えにし)があります。
+              その縁をしずかに灯すのが、売り手であるわたしの役目です。
+            </p>
+            <p>
+              そして、売ることは、押しつけることではない。
+              ─ 八百年むかし、一遍上人は、信じる人にも信じない人にも、念仏の札をひとしく配りました。
+              わたしの店の品も、どうか、必要だと思ってくださる方の手にだけ、
+              しずかにとどいてくれますように。そう願いながら並べています。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 第三章 越前市 ========== -->
+      <section id="chapter-3" class="section section-narrow section-alt">
+        <div class="container">
+          <header>
+            <p class="eyebrow">CHAPTER 三 ・ FUKUI ECHIZEN</p>
+            <h2>福井県越前市のこと</h2>
+            <p class="section-subtitle">越前国 ─ 紙と刃と、千年のまなざし。</p>
+          </header>
+
+          <figure class="place-figure">
+            <div
+              class="place-figure__image place-figure__image--echizen"
+              role="img"
+              aria-label="越前国の里"
+            >
+              越
+            </div>
+            <figcaption>越前国 ・ 福井県越前市</figcaption>
+          </figure>
+
+          <div class="photo-grid">
+            <figure>
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_paper_making_01.jpg?width=900"
+                alt="越前和紙の紙漉き(かみすき)の様子"
+                loading="lazy"
+              />
+              <figcaption>越前和紙 ─ 流し漉(ず)きの手仕事</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Kitchen_knife_blacksmith_sharpening_by_EverJean_in_Kyoto.jpg?width=900"
+                alt="和包丁の鍛冶 ・ 研ぎの様子"
+                loading="lazy"
+              />
+              <figcaption>越前打刃物 ─ 鍛冶と研ぎの場(参考)</figcaption>
+            </figure>
+          </div>
+
+          <div class="prose">
+            <p>
+              福井県越前市は、北陸地方のほぼ中央、福井県の南東部に位置する里の町です。
+              <strong>1500年の歴史をもつ越前和紙の本場・今立(いまだて)地区</strong>を抱え、
+              同じ市内には、700年以上の伝統をもつ越前打刃物の鍛冶場もあります。
+            </p>
+            <p>
+              越前和紙は、紙の神さまをまつる岡太(おかもと)神社を心の支柱とし、
+              楮(こうぞ)・三椏(みつまた)・雁皮(がんぴ)から、
+              山あいの清水を借りて漉(す)かれてきました。
+              千年を超えて手放されずに来た紙は、いま、便箋にも、絵を描く場にも、布にも障子にも姿を変えて、
+              わたしたちの暮らしに寄り添っています。
+            </p>
+            <p>
+              越前打刃物の歴史は、京の刀匠・千代鶴国安(ちよづるくにやす)が
+              この地に逗留したことに始まると伝わります。
+              やがて農具や台所の刃へと広がり、今日では、世界の料理人がこの地の包丁を携えて厨(くりや)に立っています。
+            </p>
+            <p>
+              もうひとつ、越前にはふさわしい縁があります。
+              平安時代、<strong>紫式部</strong>は父・藤原為時(ためとき)の越前守赴任にしたがい、
+              一年ばかりをこの地で過ごしました。
+              のちに『源氏物語』を書きあげる若き日の彼女が、
+              北陸の冬景色のなかで何を思ったのか。
+              越前にはそうした、しずかな問いも息づいています。
+            </p>
+            <p>
+              紙、刃、文(ふみ)。
+              なにかを「ながく、ていねいに」つくり続ける人びとの土地として、
+              わたしはこの里を、こころの支柱のひとつにしています。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 第四章 佐久市 ========== -->
+      <section id="chapter-4" class="section section-narrow">
+        <div class="container">
+          <header>
+            <p class="eyebrow">CHAPTER 四 ・ NAGANO SAKU</p>
+            <h2>長野県佐久市のこと</h2>
+            <p class="section-subtitle">高原のまち ─ 千曲川と、中山道と、踊念仏のはじまりの地。</p>
+          </header>
+
+          <figure class="place-figure">
+            <div
+              class="place-figure__image place-figure__image--saku"
+              role="img"
+              aria-label="佐久の高原"
+            >
+              佐
+            </div>
+            <figcaption>信濃国 ・ 長野県佐久市</figcaption>
+          </figure>
+
+          <figure class="chapter-photo">
+            <img
+              src="https://commons.wikimedia.org/wiki/Special:FilePath/A_moor_at_Ikenotaira_takamine-kogen_-_panoramio.jpg?width=1200"
+              alt="高峰高原 ・ 池の平湿原の風景"
+              loading="lazy"
+            />
+            <figcaption>
+              高峰高原 ・ 池の平湿原(車坂峠付近、標高約2000m)
+              ─
+              <a
+                href="https://commons.wikimedia.org/wiki/File:A_moor_at_Ikenotaira_takamine-kogen_-_panoramio.jpg"
+                target="_blank"
+                rel="noopener"
+                >Wikimedia Commons</a
+              >
+            </figcaption>
+          </figure>
+
+          <div class="prose">
+            <p>
+              長野県佐久市は、<strong>千曲川(ちくまがわ)</strong>が貫く高原のまちです。
+              標高はおよそ700メートル。
+              内陸の高地らしい澄んだ空気と、晴天日数の多さで知られ、
+              夜には冷たく乾いた風が、星をくっきりと浮かび上がらせます。
+            </p>
+            <p>
+              この土地は古来、人が往き来する道の交わり目でした。
+              江戸の世には<strong>中山道</strong>の宿場町として、
+              岩村田(いわむらだ)・塩名田(しおなだ)・八幡(やわた)・望月(もちづき)が栄え、
+              旅人たちが小さな峠ごとに足をとめ、息を整えていきました。
+            </p>
+            <p>
+              食では、二百年を超える歴史をもつ佐久鯉(さくこい)、
+              高原の蜂蜜、信州そば、林檎(りんご)。
+              いずれも気候の厳しさを糧にして実る、しずかなご馳走ばかりです。
+            </p>
+            <p>
+              城跡では、日本に二つしかない稜堡式(りょうほしき)の城・<strong>龍岡城五稜郭</strong>、
+              そして明治の擬洋風建築の旧中込(なかごみ)学校。
+              古いものを壊さずに残すという気質が、街のあちこちにそっと息づいています。
+            </p>
+          </div>
+
+          <figure class="chapter-photo">
+            <img
+              src="https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Asama_banner.jpg?width=1200"
+              alt="浅間山(あさまやま)の景色"
+              loading="lazy"
+            />
+            <figcaption>
+              浅間山 ─ 佐久の里から仰ぎみる、信濃の象徴。
+              ─
+              <a
+                href="https://commons.wikimedia.org/wiki/File:Mount_Asama_banner.jpg"
+                target="_blank"
+                rel="noopener"
+                >Wikimedia Commons</a
+              >
+            </figcaption>
+          </figure>
+
+          <div class="prose">
+            <p>
+              そして、<strong>ひとりの旅の聖がこの土地を訪れたこと</strong>を、
+              わたしは忘れることができません。
+              その人の名を、一遍上人と申します。
+              弘安二年(1279年)、信濃国佐久の里で、一遍は念仏を唱えながら踊り出しました。
+              後の世に「踊念仏(おどりねんぶつ)」と呼ばれる行(ぎょう)の、
+              そのはじまりはこの地にあったと伝えられています。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 第五章 一遍上人 ========== -->
+      <section id="chapter-5" class="section section-narrow section-alt">
+        <div class="container">
+          <header>
+            <p class="eyebrow">CHAPTER 五 ・ IPPEN SHŌNIN</p>
+            <h2>一遍上人のこと</h2>
+            <p class="section-subtitle">捨聖(すてひじり) ─ 名も家も書も捨てて、遊行を生きた人。</p>
+          </header>
+
+          <figure class="place-figure">
+            <div
+              class="place-figure__image place-figure__image--ippen"
+              role="img"
+              aria-label="一遍上人"
+            >
+              一
+            </div>
+            <figcaption>遊行の聖 ・ 一遍上人(1239 ─ 1289)</figcaption>
+          </figure>
+
+          <div class="photo-grid">
+            <figure>
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Ippen2.jpg?width=900"
+                alt="一遍上人像"
+                loading="lazy"
+              />
+              <figcaption>一遍上人像 ・ 藤沢市清浄光寺</figcaption>
+            </figure>
+            <figure>
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Ippen_shonin_eden_I_-_Departure.jpg?width=900"
+                alt="一遍聖絵 旅立ちの場面"
+                loading="lazy"
+              />
+              <figcaption>『一遍聖絵』─ 出発の場面(国宝・絵巻より)</figcaption>
+            </figure>
+          </div>
+
+          <div class="prose">
+            <p>
+              <strong>一遍上人</strong>(1239 ─ 1289)は、鎌倉時代後期に生きた遊行(ゆぎょう)の僧です。
+              伊予国(いまの愛媛県)の武家・河野家に生まれ、幼くして母を失い、
+              出家して仏の道に入りました。
+              浄土の教えを学んだのち、やがてどの教団にも属さない、
+              ただひとりの旅の念仏者となります。
+            </p>
+            <p>
+              一遍は、生涯のほとんどを旅のなかで過ごしました。
+              「南無阿弥陀仏 決定往生 六十万人」と書いた小さな札を、
+              行く先々で人びとに手わたし、ともに念仏を唱える ─
+              この行(ぎょう)を、<strong>賦算(ふさん)</strong>と呼びます。
+              武士にも、僧にも、市の女にも、子どもにも、札はわけ隔てなく手わたされました。
+            </p>
+            <p>
+              「<strong>捨聖(すてひじり)</strong>」とも呼ばれた一遍は、
+              名も、家も、身分も、書物さえも、ついには手放した人です。
+              死を前に、自らの著した書物を一冊残らず焼いたと伝えられています。
+              あとに残されたのは、念仏を唱える声と、共に旅を続けた弟子たちの記憶だけでした。
+            </p>
+            <p>
+              その記憶を絵巻にしたものが、国宝『<strong>一遍聖絵</strong>(いっぺんひじりえ)』全十二巻。
+              山も海も町も、人も犬も、すべての景色が淡い色で描かれた絵巻のなかで、
+              一遍はいつも、軽い身ひとつで旅を続けています。
+            </p>
+            <blockquote>
+              <p>信不信を選ばず、浄不浄を嫌わず、その札を配るべし。</p>
+              <cite>── 一遍上人 語録より</cite>
+            </blockquote>
+            <p>
+              信じるものにも、信じないものにも、清いものにも、汚れたものにも、
+              念仏は等しくとどく ─
+              この、誰をも置き去りにしないまなざしが、
+              一遍の生きざまの核にあるものだと、わたしは受け止めています。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 第六章 踊念仏 ========== -->
+      <section id="chapter-6" class="section section-narrow">
+        <div class="container">
+          <header>
+            <p class="eyebrow">CHAPTER 六 ・ ODORI NEMBUTSU</p>
+            <h2>踊念仏のこと</h2>
+            <p class="section-subtitle">救いは、立ちどまる場所ではなく、踊りつづける動きのなかに。</p>
+          </header>
+
+          <figure class="place-figure">
+            <div
+              class="place-figure__image place-figure__image--odori"
+              role="img"
+              aria-label="踊念仏"
+            >
+              踊
+            </div>
+            <figcaption>踊念仏 ・ 弘安二年(1279)信濃国佐久にて</figcaption>
+          </figure>
+
+          <figure class="chapter-photo chapter-photo--scroll">
+            <img
+              src="https://commons.wikimedia.org/wiki/Special:FilePath/Ippen_shonin_eden_IV_-_Odori_Nembutsu.jpg?width=1200"
+              alt="一遍聖絵 踊念仏の場面"
+              loading="lazy"
+            />
+            <figcaption>
+              『一遍聖絵』─ 踊念仏の場(国宝・絵巻より)
+              ─
+              <a
+                href="https://commons.wikimedia.org/wiki/File:Ippen_shonin_eden_IV_-_Odori_Nembutsu.jpg"
+                target="_blank"
+                rel="noopener"
+                >Wikimedia Commons</a
+              >
+            </figcaption>
+          </figure>
+
+          <div class="prose">
+            <p>
+              <strong>踊念仏(おどりねんぶつ)</strong>が始まったのは、
+              弘安二年(1279年)、信濃国佐久郡の小田切(おたぎり)の里でのこととされます。
+              旅をする一遍が、念仏を唱えるうちに足を踏みならし、
+              鉦(かね)を打ち、腕を上げて踊り出した ─
+              その姿がまわりの人びとを巻き込んで、
+              一遍とその同行(どうぎょう)たちの行(ぎょう)となっていきました。
+            </p>
+            <p>
+              踊念仏には、難しい教義も、長い修行も、立派な道場もいりません。
+              拍子をとり、声を出し、足を踏む。
+              身分も年齢も性別も、出家か在家かさえも問われない。
+              <strong>阿弥陀仏の救いはすべての人にひらかれている</strong>、
+              という一遍の確信が、そのまま身体の動きになって現れたのが、踊念仏でした。
+            </p>
+            <p>
+              やがて踊念仏は、各地の村や市にひろまり、中世の人びとを熱狂させます。
+              その流れは、後世の念仏踊り、盆踊り、田楽、芸能の源流のひとつとも言われます。
+              日本の踊りの底に、一遍の足拍子が今も小さく響いている ─
+              そう想像することは、わたしには大きな、しずかな喜びです。
+            </p>
+            <p>
+              救いは、立ちどまる場所ではなく、踊りつづける動きのなかにある。
+              なにもかも捨てて、ただ歩み、踊り、念仏を唱える。
+              一遍上人と踊念仏の生きざまは、
+              ものを抱えすぎる現代に、ひとつの清い問いをなげかけてきます。
+            </p>
+            <blockquote>
+              <p>身を捨てて こそ浮かぶ瀬もあれ。<br />
+              ─ 持たないことは、貧しさではなく、自由のかたちかもしれない。</p>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 第七章 おすすめのもの (最後の最後) ========== -->
+      <section id="chapter-7" class="section section-alt">
+        <div class="container">
+          <header>
+            <p class="eyebrow">CHAPTER 七</p>
+            <h2>そして、おすすめのもの</h2>
+            <p class="section-subtitle">
+              ここまでお読みくださったあなたに、ようやく品をお見せします。
+            </p>
+          </header>
+
+          <div class="prose" style="margin-bottom: 40px;">
+            <p>
+              長い巻物にお付き合いくださり、ありがとうございました。<br />
+              これからご紹介するのは、越前の里と佐久の高原で出会ったものに加えて、
+              <strong>彼岸花や蓮、組紐 ─ 仏教の意匠をいまの装いに編み直した「ノスタルジーの和」</strong>。
+              一遍上人の "捨てる" 作法を心の傍らに置きながら、
+              わたしが「これだけは、ながく傍に置きたい」と感じたものたちです。
+            </p>
+            <p>
+              どれも飾り立てません。
+              手にとって、暮らしのなかで使い・まとい、やがてあなたの記憶のなかに溶けていく ─
+              そういう静かな品ばかりです。
+            </p>
+          </div>
+
+          <div class="item-grid">
+            <article class="product-card">
+              <div class="product-thumb" role="img" aria-label="越前和紙の便箋"></div>
+              <div class="product-body">
+                <h3>越前和紙の便箋束</h3>
+                <p>
+                  福井・今立で漉かれた、楮(こうぞ)100%の便箋。
+                  にじまず、やぶれず、五十年先の人の手に届きます。
+                </p>
+                <div class="product-meta">
+                  <span class="price">¥1,580</span>
+                  <a class="btn btn-outline" href="shop.html">詳細を見る</a>
+                </div>
+              </div>
             </article>
-            <article class="profile-card">
-              <h3>ストーリー付き</h3>
-              <p>なぜおすすめなのか、使ってみての感想を添えて紹介しています。</p>
+
+            <article class="product-card">
+              <div class="product-thumb thumb-2" role="img" aria-label="越前打刃物の小包丁"></div>
+              <div class="product-body">
+                <h3>越前打刃物の小包丁</h3>
+                <p>
+                  700年の鍛冶の里から。研ぎながら、十年・二十年と、台所に立ち続ける一本です。
+                </p>
+                <div class="product-meta">
+                  <span class="price">¥4,200</span>
+                  <a class="btn btn-outline" href="shop.html">詳細を見る</a>
+                </div>
+              </div>
             </article>
-            <article class="profile-card">
-              <h3>かんたんお問い合わせ</h3>
-              <p>
-                気になることは <a href="contact.html">お問い合わせ</a> からお気軽にどうぞ。
-              </p>
+
+            <article class="product-card">
+              <div class="product-thumb thumb-3" role="img" aria-label="信州佐久の蜂蜜"></div>
+              <div class="product-body">
+                <h3>信州・佐久の蜂蜜</h3>
+                <p>
+                  千曲川流域の高原で、養蜂家がひと夏かけて集めた一壺。冬の朝の湯にひとさじ。
+                </p>
+                <div class="product-meta">
+                  <span class="price">¥2,800</span>
+                  <a class="btn btn-outline" href="shop.html">詳細を見る</a>
+                </div>
+              </div>
             </article>
+
+            <article class="product-card">
+              <div class="product-thumb thumb-6" role="img" aria-label="風呂敷"></div>
+              <div class="product-body">
+                <h3>一風呂敷(綿100%)</h3>
+                <p>
+                  旅の聖にならって、ひと包みで身を整えるための布。鞄に、贈りものに、敷物に。
+                </p>
+                <div class="product-meta">
+                  <span class="price">¥3,980</span>
+                  <a class="btn btn-outline" href="shop.html">詳細を見る</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-thumb thumb-higanbana" role="img" aria-label="彼岸花刺繍半袖Tシャツ"></div>
+              <div class="product-body">
+                <h3>彼岸花刺繍半袖Ｔシャツ</h3>
+                <p>
+                  秋の彼岸に咲く一輪を、胸もとに。
+                  カジュアルに、けれどどこか祈りのようにまとう一枚。
+                </p>
+                <div class="product-meta">
+                  <span class="price">¥9,350</span>
+                  <a class="btn btn-outline" href="https://shop.axesfemme.com/REZEN-%e5%bd%bc%e5%b2%b8%e8%8a%b1%e5%88%ba%e7%b9%8d%e5%8d%8a%e8%a2%96%ef%bc%b4%e3%82%b7%e3%83%a3%e3%83%84/brandproduct/nostalgie/0/VE21X07RZ" target="_blank" rel="noopener">詳細を見る</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-thumb thumb-hebi" role="img" aria-label="蛇×蓮刺繍帯ベルト"></div>
+              <div class="product-body">
+                <h3>蛇 × 蓮刺繍帯ベルト</h3>
+                <p>
+                  泥より咲く蓮と、脱皮を繰り返す蛇。
+                  生まれ変わりのモチーフを、腰の一帯に締めて。
+                </p>
+                <div class="product-meta">
+                  <span class="price">¥6,600</span>
+                  <a class="btn btn-outline" href="https://shop.axesfemme.com/REZEN-%e8%9b%87%c3%97%e8%93%ae%e5%88%ba%e7%b9%8d%e5%b8%af%e3%83%99%e3%83%ab%e3%83%88/brandproduct/nostalgie/0/VE631X05RZ" target="_blank" rel="noopener">詳細を見る</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="end-cta">
+            <p>すべての品を、ゆっくりとご覧いただけます。</p>
+            <a class="btn btn-primary" href="shop.html">ショップへ進む</a>
+          </div>
+
+          <div class="closing-seal" aria-hidden="true">
+            <span class="seal seal-lg">遍</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== 終章 (Chapter 八) ─ 実は、お話したいことがあります ========== -->
+      <section id="chapter-8" class="section section-finale">
+        <div class="container">
+          <p class="finale-banner">終 章</p>
+
+          <header>
+            <p class="eyebrow">CHAPTER 八 ・ FINALE</p>
+            <h2>実は、お話したいことがあります。</h2>
+            <p class="section-subtitle">
+              ここまで読んでくださったあなたに、最後に、ひとつだけお願いがあります。
+            </p>
+          </header>
+
+          <div class="prose">
+            <p>
+              巻物の最後まで歩いてくださり、ほんとうにありがとうございます。<br />
+              ─ ほんとうのことを言うと、はじめからお伝えしたほうが誠実だったかもしれません。
+              このお店も、ご紹介してきた品も、わたしの旅の一部にすぎず、
+              <strong>もっと先に、いっしょに歩んでくださる方をさがしています</strong>。
+            </p>
+            <p>
+              ちかぢか、あたらしい会社をひとつ、はじめます。
+              越前で聴いた紙漉(かみす)きの音、佐久の高原の冷たい空気、
+              そして一遍上人が八百年むかしに歩いた道。
+              あれらに動かされたわたしは、
+              "ものを売る" だけではない、もうひとつの <strong>"遊行(ゆぎょう)" のようなしごと</strong>を、
+              仲間とともに、ひとつ立ちあげたいのです。
+            </p>
+            <p>
+              何をするのか ─ ほんとうのことを言えば、まだ決め切っていません。
+              ただひとつ、はっきりしているのは、
+              「<strong>わたしのやりたいこと</strong>」を聞いていただく会社にはしたくない、ということ。
+            </p>
+            <p>
+              そうではなく ─
+              あなたがほんとうに、ひそかに、<strong>やってみたいと思っていたこと</strong>。
+              それを、ひと巻物の物語のように、聞かせてもらえないでしょうか。
+              もしそれが、わたしのまだ知らない場所、まだ見ぬ職業、
+              一見お店とは関係のないことだったとしても、構いません。
+              むしろ、そういう "縁の遠いもの" にこそ、新しい遊行の道はひそんでいる気がしています。
+            </p>
+            <blockquote>
+              <p>信不信を選ばず、浄不浄を嫌わず、その札を配るべし。</p>
+              <cite>── 一遍上人 語録より</cite>
+            </blockquote>
+            <p>
+              一遍上人のこの言葉のとおり、
+              わたしの募集も、<strong>経験の有無、業界、肩書き、年齢、住んでいる場所</strong> ─
+              どれも問いません。
+              「南無阿弥陀仏」の札のかわりに、いまから、わたしから、あなたへ、
+              ひとつの問いの札をお渡しします。
+            </p>
+            <blockquote>
+              <p>あなたは、ほんとうは、<br />どんな旅をしたいですか？</p>
+            </blockquote>
+            <p>
+              もしひとことでも、半行(はんぎょう)でも、心がうごいたなら、
+              下のフォームから、あなたの札をわたしに返してください。
+              返事は、わたしから、ひとりずつ、ていねいにお書きします。
+            </p>
+          </div>
+
+          <aside class="fuda" aria-labelledby="join-fuda-title">
+            <p class="fuda-title" id="join-fuda-title">仲間ぼしゅうの札</p>
+            <p class="fuda-subtitle">
+              ※ 本フォームの内容は、いがちゃん本人だけが拝見します。
+            </p>
+
+            <form class="form" action="#" method="post" novalidate>
+              <label>
+                お名前<span class="required-mark">必須</span>
+                <input type="text" name="name" autocomplete="name" required />
+              </label>
+
+              <label>
+                メールアドレス<span class="required-mark">必須</span>
+                <input type="email" name="email" autocomplete="email" required />
+              </label>
+
+              <label>
+                いまのおしごと
+                <span class="field-hint">(任意 ・ 在野・無職・学生 もご記入ください)</span>
+                <input
+                  type="text"
+                  name="current-job"
+                  autocomplete="organization-title"
+                  placeholder="例: 編集者 / カフェ店主 / 介護士 / 求職中 など"
+                />
+              </label>
+
+              <label>
+                住んでいる場所
+                <span class="field-hint">(任意 ・ ざっくりで大丈夫です)</span>
+                <input
+                  type="text"
+                  name="location"
+                  placeholder="例: 東京都内 / 北陸地方 / 海外 など"
+                />
+              </label>
+
+              <label>
+                あなたは、ほんとうは、どんな旅をしたいですか？<span class="required-mark">必須</span>
+                <span class="field-hint">
+                  どんな小さなことでも、しごとと関係のないことでも構いません。
+                </span>
+                <textarea
+                  name="dream"
+                  required
+                  placeholder="やってみたいけれど、まだ口にしていなかったこと。
+ほんの一行でも、長文でも、どちらでも歓迎します。"
+                ></textarea>
+              </label>
+
+              <label>
+                この巻物を読んで、心に残った一節
+                <span class="field-hint">(任意)</span>
+                <textarea
+                  name="impression"
+                  placeholder="どの章のどんな一節でも、引っかかった言葉があれば教えてください。"
+                ></textarea>
+              </label>
+
+              <label>
+                一度、お話してみてもよい時間帯
+                <span class="field-hint">(任意)</span>
+                <input
+                  type="text"
+                  name="availability"
+                  placeholder="例: 平日 19時以降 / 土日の午後 / オンライン可 など"
+                />
+              </label>
+
+              <div>
+                <button type="submit" class="btn btn-primary">
+                  この札を、いがちゃんに渡す
+                </button>
+              </div>
+            </form>
+          </aside>
+
+          <div class="closing-seal" aria-hidden="true">
+            <span class="seal seal-lg">縁</span>
           </div>
         </div>
       </section>
@@ -94,7 +758,7 @@
 
     <footer class="site-footer">
       <div class="container">
-        <small>&copy; <span data-current-year>2026</span> いがちゃんのお店</small>
+        <small>&copy; <span data-current-year>2026</span> いがちゃんの航海日誌</small>
         <nav aria-label="フッターナビゲーション">
           <a href="index.html">ホーム</a> ・
           <a href="shop.html">ショップ</a> ・
