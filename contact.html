@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="いがちゃんのお店へのお問い合わせページ。商品やサイトに関するご質問はこちらからどうぞ。"
+    />
+    <title>お問い合わせ | いがちゃんのお店</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <p class="site-title"><a href="index.html">いがちゃんのお店</a></p>
+        <nav class="global-nav" aria-label="メインナビゲーション">
+          <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="shop.html">ショップ</a></li>
+            <li><a href="contact.html" aria-current="page">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h2>お問い合わせ</h2>
+          <p class="lead">
+            商品やサイトについてのご質問、ご感想など、お気軽にお寄せください。
+          </p>
+
+          <form class="form" action="#" method="post" novalidate>
+            <label>
+              お名前
+              <input type="text" name="name" autocomplete="name" required />
+            </label>
+
+            <label>
+              メールアドレス
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+
+            <label>
+              お問い合わせ種別
+              <select name="topic">
+                <option value="product">商品について</option>
+                <option value="site">サイトについて</option>
+                <option value="other">その他</option>
+              </select>
+            </label>
+
+            <label>
+              内容
+              <textarea name="message" required></textarea>
+            </label>
+
+            <div>
+              <button type="submit" class="btn">送信する</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>&copy; <span data-current-year>2026</span> いがちゃんのお店</small>
+        <nav aria-label="フッターナビゲーション">
+          <a href="index.html">ホーム</a> ・
+          <a href="shop.html">ショップ</a> ・
+          <a href="contact.html">お問い合わせ</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
